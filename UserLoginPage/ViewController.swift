@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet var usename :[UITextField]
     override func viewDidAppear(_ animated: Bool)
     {
         print("loaded")
