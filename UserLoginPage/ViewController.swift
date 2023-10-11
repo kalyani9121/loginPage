@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool)
     {
         print("loaded")
+        print("GitHub")
         let isUserLoggedIn  = UserDefaults.standard.bool(forKey: "isUserLoggedIn")
         if(!isUserLoggedIn)
         {
